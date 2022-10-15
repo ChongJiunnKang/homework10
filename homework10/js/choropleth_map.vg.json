@@ -6,7 +6,7 @@
   "projection": {"type": "equalEarth"},
   "layer":[
   {"data": {
-    "url": "https://raw.githubusercontent.com/ChongJiunnKang/3179/master/assignment%202/js/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/ChongJiunnKang/homework10/main/homework10/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/ChongJiunnKang/3179/master/assignment%202/data/CO2_emission.csv"
+          "url": "https://raw.githubusercontent.com/ChongJiunnKang/homework10/main/homework10/data/CO2_emission.csv"
         },
         "key": "Country Name",
         "fields": ["2019"]
